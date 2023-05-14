@@ -23,16 +23,20 @@ Graph Analytics和AL4DB相关学习资料/路径
 - [Stanford CS246 大数据挖掘 (2019)](https://www.bilibili.com/video/BV1SC4y187x1/?from=search&seid=1692751967493851255&spm_id_from=333.337.0.0&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
 - [Stanford Course Explore](https://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Autumn=on)
 
-
+### 重点章节
+| Week  | Content  | Reading List  | Material  |
+|---|---|---|---|
+|1| Node Embedding  | [1: DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)<br>[2: node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) |  [矩阵分解的python实现](https://blog.csdn.net/qq_43741312/article/details/97548944) | 
+|2| Graph Neural Networks  | [1: Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/pdf/1609.02907.pdf)<br>[2: Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf)   |   | 
+|3| GNN Augmentation and Training   |   |   |
+|4| Theory of Graph Neural Networks  |   |   |
+|5| Label Propagation on Graphs |   |   |
+|6| Subgraph Matching and Counting |   |   |
 
 ## 理论及论文
 
-
-### 整体概念架构
-
 ### 综述综合
 
-#### 大综述
 
 ## 学习资料
 - [https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
@@ -92,3 +96,4 @@ Graph Analytics和AL4DB相关学习资料/路径
 
 
 ## 其他
+- [PKU Lanco Lab 入门指导](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
