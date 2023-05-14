@@ -13,12 +13,20 @@ Graph Analytics和AL4DB相关学习资料/路径
 
 
 ## 视频课程
+### 主要课程
+- [Stanford CS224W Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
+
+### 参考课程
+- [Stanford CS520 Knowledge Graphs (2021)](https://www.bilibili.com/video/BV1hb4y1r7fF/?from=search&seid=6234955209527085652&spm_id_from=333.337.0.0&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
+- [Stanford CS246 大数据挖掘 (2019)](https://www.bilibili.com/video/BV1SC4y187x1/?from=search&seid=1692751967493851255&spm_id_from=333.337.0.0&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
+- [Stanford Course Explore](https://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Autumn=on)
+
+
 
 ## 理论及论文
 
 
 ### 整体概念架构
-随着知识图谱的发展，与之相关的概念也越来越多，在阅读论文时先准确的把握该论文所要解决问题处于的层级或者位置对于更好的理解论文也比较有帮助，在此对知识图谱的概念进行了总结整理，整体概念架构图如下图所示，后面的论文分类也按照该整体架构概念图从顶向下，从整体到细节的方式组织。
 
 ### 综述综合
 
