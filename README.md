@@ -8,6 +8,7 @@ Graph Analytics和AL4DB相关学习资料/路径
 - [理论及论文](#理论及论文)
 - [学习资料](#学习资料)
 - [相关会议](#相关会议)
+- [论文写作](#论文写作)
 - [其他](#其他)
 
 
@@ -28,10 +29,35 @@ Graph Analytics和AL4DB相关学习资料/路径
 ## 相关会议
 
 ### Database三大会
+#### 1: SIGMOD
+- DBLP [https://dblp.org/db/conf/sigmod/sigmod2022.html](https://dblp.org/db/conf/sigmod/sigmod2022.html)
+- 官网 [https://2022.sigmod.org/](https://2022.sigmod.org/)
+- 如果要在DBLP中切换成SIGMODxxxx, 其中xxxx代表年份，只需要把上面最后的sigmod2022变成sigmodxxxx
+
+#### 2: VLDB
+- [http://vldb.org/pvldb/volumes/16/](http://vldb.org/pvldb/volumes/16/)
+
+#### 3: ICDE
+- [https://icde2023.ics.uci.edu/](https://icde2023.ics.uci.edu/)
 
 ### 机器/深度学习三大会
 
+#### 1: ICML
+- [https://dblp.org/db/conf/icml/icml2022.html](https://dblp.org/db/conf/icml/icml2022.html)
+- 要修改年份的话，与上面类似
+
+
+#### 2: ICLR
+- [https://dblp.org/db/conf/iclr/iclr2022.html](https://dblp.org/db/conf/iclr/iclr2022.html)
+
+
+#### 3: NIPS
+
 ### Data mining会议
+
+#### 1: KDD
+
+## 论文写作
 
 
 ## 其他
