@@ -25,6 +25,8 @@ Graph Analytics和AL4DB相关学习资料/路径
 #### 大综述
 
 ## 学习资料
+- [https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
+
 
 ## 相关会议
 
