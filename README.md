@@ -37,12 +37,15 @@ Graph Analytics和AL4DB相关学习资料/路径
 ## 理论及论文
 
 ### Traditional Community Search
-- 
+- [DMCS : Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
 - .... TBD
 
 ### Learning based Community Search
-- 
+- Query Driven-Graph Neural Networks for Community Search [[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337) [[paper]](https://arxiv.org/abs/2104.03583)
+- ICS-GNN: lightweight interactive community search via graph neural network [[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337) [[paper]](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)
 
+### Anomaly Detection
+- 
 
 ### Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
