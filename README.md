@@ -37,7 +37,7 @@ Graph Analytics和AL4DB相关学习资料/路径
 ## 理论及论文
 
 ### Traditional Community Search
-- [DMCS : Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
+- DMCS : Density Modularity based Community Search [[paper]](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
 - ..... To be continued
 
 ### Learning based Community Search
