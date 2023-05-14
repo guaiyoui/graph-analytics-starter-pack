@@ -51,13 +51,32 @@ Graph Analytics和AL4DB相关学习资料/路径
 - [https://dblp.org/db/conf/iclr/iclr2022.html](https://dblp.org/db/conf/iclr/iclr2022.html)
 
 
-#### 3: NIPS
+#### 3: NeurIPS
+- [https://papers.nips.cc/paper/2022](https://papers.nips.cc/paper/2022)
 
 ### Data mining会议
 
 #### 1: KDD
+- [https://kdd.org/kdd2022/paperRT.html](https://kdd.org/kdd2022/paperRT.html)
+
 
 ## 论文写作
+
+### 写作
+- [Writing tips from MLNLP](https://github.com/MLNLP-World/Paper-Writing-Tips#%E7%99%BE%E5%AE%B6%E4%B9%8B%E8%A8%80)
+- [在线latex编辑器](https://www.latexlive.com/)
+
+
+### 画图
+- [https://github.com/guanyingc/python_plot_utils](https://github.com/guanyingc/python_plot_utils)
+
+
+### 工具
+- [谷歌学术](https://scholar.google.com.hk/)
+- [ChatGPT](https://poe.com/ChatGPT)
+- [ChatGPT学术润色的prompt参考](https://github.com/ashawkey/chatgpt_please_improve_my_paper_writing)
+
+
 
 
 ## 其他
