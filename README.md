@@ -36,6 +36,14 @@ Graph Analytics和AL4DB相关学习资料/路径
 
 ## 理论及论文
 
+### Traditional Community Search
+- 
+- .... TBD
+
+### Learning based Community Search
+- 
+
+
 ### Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
 - [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
