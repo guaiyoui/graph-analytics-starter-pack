@@ -36,7 +36,13 @@ Graph Analytics和AL4DB相关学习资料/路径
 
 ## 理论及论文
 
-### 综述综合
+### Fraud Detection
+- [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
+- [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
+- [入门代码demo](https://github.com/finint/antifraud)
+- [TKDE Community Aware反洗钱 Anti-Money Laundering by Group-Aware Deep Graph Learning](https://ieeexplore.ieee.org/document/10114503)
+- [AAAI Risk-Aware反诈骗 Semi-Supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation](https://arxiv.org/pdf/2003.01171.pdf)
+- [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
 
 
 ## 学习资料
