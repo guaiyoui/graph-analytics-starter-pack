@@ -1,0 +1,18 @@
+# Github不同步tmp文件夹
+# 如果有一些草稿不合适commit，可以记录在tmp/文件夹中
+tmp/
+
+# Vscode
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
