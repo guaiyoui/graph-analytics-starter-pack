@@ -7,7 +7,12 @@ Graph Analytics和AI4DB相关学习资料/路径
 ## 目录
 - [导论](#导论)
 - [视频课程](#视频课程)
-- [理论及论文](#理论及论文)
+- [研究领域](#研究领域)
+    - [Cohesive Subgraph Discovery](#CohesiveSubgraphDiscovery)
+    - [Generalized Anomaly Detection](#GeneralizedAnomalyDetection)
+    - [Graph Similarity Computation](#GraphSimilarityComputation)
+    - [Cardinality Estimation](#CardinalityEstimation)
+    - [Subgraph Matching/Counting](#SubgraphMatching)
 - [其他](#其他)
 
 ## 导论
@@ -58,7 +63,7 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 ### 重点章节
 | Week  | Content  | Reading List  | Material  |
 |---|---|---|---|
-|1| Node Embedding  | [1: DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)<br>[2: node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) |  [矩阵分解的python实现](https://blog.csdn.net/qq_43741312/article/details/97548944) | 
+|1| Node Embedding  | [1: DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)<br>[2: node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) | 节点表征是learning中最基础的一个问题。可以参考CS224W week3和COMP9312 week6的内容。传统的矩阵分解方法可以参考：[矩阵分解的python实现](https://blog.csdn.net/qq_43741312/article/details/97548944) | 
 |2| Graph Neural Networks  | [1: Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/pdf/1609.02907.pdf)<br>[2: Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf)   |  [Learning basic](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/tutorials/Tutorial5_inclasscode.ipynb) | 
 |3| GNN Augmentation and Training   |  [1: Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf)<br>[2: Hyper-Path-Based Representation Learning for Hyper-Networks.](https://arxiv.org/abs/1908.09152) | [Node embedding](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/tutorials/tutorial6_Node_Embedding.ipynb)  |
 |4| Theory of Graph Neural Networks  | [1: Anomaly Detection on Attributed Networks via Contrastive Self-Supervised Learning](https://arxiv.org/abs/2103.00113)<br>[2: Sub-graph Contrast for Scalable Self-Supervised Graph Representation Learning](https://arxiv.org/abs/2009.10273)  | [Downstream Application](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/tutorials/Tutorial7_Downstream_Applications_Template.ipynb)  |
@@ -66,7 +71,27 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 |6| Subgraph Matching and Counting |  [1: A Learned Sketch for Subgraph Counting](https://dl.acm.org/doi/pdf/10.1145/3448016.3457289)<br>[2: Neural Subgraph Counting with Wasserstein Estimator](https://dl.acm.org/doi/pdf/10.1145/3514221.3526163) | [Contrastive Learning on Graph](https://github.com/yzjiao/Subg-Con)  |
 
 
-## 理论及论文
+## 研究领域
+
+<p id="CohesiveSubgraphDiscovery"></p>
+
+### Cohesive Subgraph Discovery
+
+<p id="GeneralizedAnomalyDetection"></p>
+
+### Generalized Anomaly Detection
+
+<p id="GraphSimilarityComputation"></p>
+
+### Graph Similarity Computation
+
+<p id="CardinalityEstimation"></p>
+
+### Cardinality Estimation
+
+<p id="SubgraphMatching"></p>
+
+### Subgraph Matching/Counting
 
 ### Traditional Community Search
 - DMCS : Density Modularity based Community Search [[paper]](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
