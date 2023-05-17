@@ -78,17 +78,16 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 |6| Subgraph Matching and Counting |  [1: A Learned Sketch for Subgraph Counting](https://dl.acm.org/doi/pdf/10.1145/3448016.3457289)<br>[2: Neural Subgraph Counting with Wasserstein Estimator](https://dl.acm.org/doi/pdf/10.1145/3514221.3526163) | 参考CS224W 12nd. reading list给了subgraph counting (NP hard)问题的两篇文章(from sigmod 2021 and sigmod 2022)。subcon论文的仓库代码在 [Contrastive Learning on Graph](https://github.com/yzjiao/Subg-Con)  |
 
 
-## 研究领域
 
 <p id="CohesiveSubgraphDiscovery"></p>
 
-### 1: Cohesive Subgraph Discovery
+## Cohesive Subgraph Discovery
 Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。
 
-#### 1.1 Subgraph-model-based Community Search
+### 1.1 Subgraph-model-based Community Search
 Subgraph-model-based community search model the community as various subgraph models, e.g., k-core, k-truss, and k connected component.
 
-#### 1.2 Metric-based Community Search
+### 1.2 Metric-based Community Search
 The metric-based community search methods aims to find a connected subgraph that contains the query nodes and has the largest metric, e.g., density, modularity....
 
 | Conference | Paper  |  Material | Abstract | Highlights |
@@ -99,7 +98,7 @@ The metric-based community search methods aims to find a connected subgraph that
 
 
 
-#### 1.3 Learning-based Community Search
+### 1.3 Learning-based Community Search
 Learning-based community search的方法，一般把问题model成node classification的任务。
 
 | Conference | Paper  |  Material | Abstract | Highlights |
@@ -110,16 +109,16 @@ Learning-based community search的方法，一般把问题model成node classific
 
 <p id="GeneralizedAnomalyDetection"></p>
 
-### 2: Generalized Anomaly Detection
+## 2: Generalized Anomaly Detection
 Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
-#### 综述
+### 综述
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
-#### Anomaly Detection
+### Anomaly Detection
 - ICLR2022 anomaly detection for tabular data with internal contrastive learning. [[paper]](https://openreview.net/forum?id=_hszZbt46bT)
 - ..... To be continued
 
-#### Fraud Detection
+### Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
 - [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
 - [入门代码demo](https://github.com/finint/antifraud)
@@ -131,15 +130,15 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 <p id="GraphSimilarityComputation"></p>
 
-### 3: Graph Similarity Computation
+## 3: Graph Similarity Computation
 
 <p id="CardinalityEstimation"></p>
 
-### 4: Cardinality Estimation
+## 4: Cardinality Estimation
 
 <p id="SubgraphMatching"></p>
 
-### 5: Subgraph Matching/Counting
+## 5: Subgraph Matching/Counting
 
 
 
