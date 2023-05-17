@@ -108,5 +108,5 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 - [https://github.com/guanyingc/python_plot_utils](https://github.com/guanyingc/python_plot_utils)
 ### 工具
 - [谷歌学术](https://scholar.google.com.hk/)
-- [ChatGPT](https://chat.openai.com/), [POE: 集成多个语音模型](https://poe.com/ChatGPT)
+- [ChatGPT](https://chat.openai.com/), [POE: 集成多个语言模型](https://poe.com/ChatGPT)
 - [ChatGPT学术润色的prompt参考](https://github.com/ashawkey/chatgpt_please_improve_my_paper_writing)
