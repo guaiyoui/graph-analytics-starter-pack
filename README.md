@@ -93,7 +93,9 @@ The Metric-based community search aims to find a connected subgraph that contain
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
-|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| find a connected subgraph that contains the query nodes and has the largest density modularity|propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem |
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity|propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
 
 
 
