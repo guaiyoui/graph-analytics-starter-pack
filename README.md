@@ -76,7 +76,8 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 
 <p id="CohesiveSubgraphDiscovery"></p>
 
-### Cohesive Subgraph Discovery
+### 1: Cohesive Subgraph Discovery
+Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。
 
 #### Subgraph-model-based Community Search
 
@@ -92,8 +93,8 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 
 <p id="GeneralizedAnomalyDetection"></p>
 
-### Generalized Anomaly Detection
-
+### 2: Generalized Anomaly Detection
+Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
 #### 综述
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
@@ -113,15 +114,15 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 
 <p id="GraphSimilarityComputation"></p>
 
-### Graph Similarity Computation
+### 3: Graph Similarity Computation
 
 <p id="CardinalityEstimation"></p>
 
-### Cardinality Estimation
+### 4: Cardinality Estimation
 
 <p id="SubgraphMatching"></p>
 
-### Subgraph Matching/Counting
+### 5: Subgraph Matching/Counting
 
 
 
