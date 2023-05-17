@@ -86,10 +86,15 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。
 
 #### 1.1 Subgraph-model-based Community Search
+Subgraph-model-based community search model the community as various subgraph models, e.g., k-core, k-truss, and k connected component.
 
 #### 1.2 Metric-based Community Search
-- DMCS : Density Modularity based Community Search [[paper]](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
-- ..... To be continued
+The Metric-based community search aims to find a connected subgraph that contains the query nodes and has the largest metric, e.g., density, modularity....
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| find a connected subgraph that contains the query nodes and has the largest density modularity|propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem |
+
 
 
 #### 1.3 Learning-based Community Search
@@ -108,7 +113,7 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 - ICLR2022 anomaly detection for tabular data with internal contrastive learning. [[paper]](https://openreview.net/forum?id=_hszZbt46bT)
 - ..... To be continued
 
-### Fraud Detection
+#### Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
 - [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
 - [入门代码demo](https://github.com/finint/antifraud)
