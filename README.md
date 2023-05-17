@@ -78,9 +78,38 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 
 ### Cohesive Subgraph Discovery
 
+#### Subgraph-model-based Community Search
+
+#### Metric-based Community Search
+- DMCS : Density Modularity based Community Search [[paper]](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
+- ..... To be continued
+
+
+### Learning based Community Search
+- Query Driven-Graph Neural Networks for Community Search [[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337) [[paper]](https://arxiv.org/abs/2104.03583)
+- ICS-GNN: lightweight interactive community search via graph neural network [[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/ics-gnn.zip) [[paper]](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)
+- Community Search: A Meta-Learning Approach [[paper]](https://arxiv.org/abs/2201.00288)
+
 <p id="GeneralizedAnomalyDetection"></p>
 
 ### Generalized Anomaly Detection
+
+#### 综述
+- Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
+
+#### Anomaly Detection
+- ICLR2022 anomaly detection for tabular data with internal contrastive learning. [[paper]](https://openreview.net/forum?id=_hszZbt46bT)
+- ..... To be continued
+
+### Fraud Detection
+- [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
+- [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
+- [入门代码demo](https://github.com/finint/antifraud)
+- [TKDE Community Aware反洗钱 Anti-Money Laundering by Group-Aware Deep Graph Learning](https://ieeexplore.ieee.org/document/10114503)
+- [AAAI Risk-Aware反诈骗 Semi-Supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation](https://arxiv.org/pdf/2003.01171.pdf)
+- [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
+
+
 
 <p id="GraphSimilarityComputation"></p>
 
@@ -94,30 +123,9 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 
 ### Subgraph Matching/Counting
 
-### Traditional Community Search
-- DMCS : Density Modularity based Community Search [[paper]](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)
-- ..... To be continued
 
-### Learning based Community Search
-- Query Driven-Graph Neural Networks for Community Search [[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337) [[paper]](https://arxiv.org/abs/2104.03583)
-- ICS-GNN: lightweight interactive community search via graph neural network [[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/ics-gnn.zip) [[paper]](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)
-- Community Search: A Meta-Learning Approach [[paper]](https://arxiv.org/abs/2201.00288)
 
-### Anomaly Detection
-#### 综述
-- Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
-#### 文章
-- ICLR2022 anomaly detection for tabular data with internal contrastive learning. [[paper]](https://openreview.net/forum?id=_hszZbt46bT)
-- ..... To be continued
-
-### Fraud Detection
-- [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
-- [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
-- [入门代码demo](https://github.com/finint/antifraud)
-- [TKDE Community Aware反洗钱 Anti-Money Laundering by Group-Aware Deep Graph Learning](https://ieeexplore.ieee.org/document/10114503)
-- [AAAI Risk-Aware反诈骗 Semi-Supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation](https://arxiv.org/pdf/2003.01171.pdf)
-- [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
 
 
 
