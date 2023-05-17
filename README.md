@@ -1,5 +1,11 @@
 
 # graph-analytics-starter-pack
+
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/guaiyoui/graph-analytics-starter-pack) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
+
+
 Graph Analytics和AI4DB相关学习资料/路径
 
 ---
@@ -86,7 +92,7 @@ Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚�
 - ..... To be continued
 
 
-#### 1.3 Learning based Community Search
+#### 1.3 Learning-based Community Search
 - Query Driven-Graph Neural Networks for Community Search [[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337) [[paper]](https://arxiv.org/abs/2104.03583)
 - ICS-GNN: lightweight interactive community search via graph neural network [[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/ics-gnn.zip) [[paper]](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)
 - Community Search: A Meta-Learning Approach [[paper]](https://arxiv.org/abs/2201.00288)
