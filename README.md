@@ -1,15 +1,47 @@
-# awesome-graph-analytics
-Graph Analytics和AL4DB相关学习资料/路径
+
+# graph-analytics-starter-pack
+Graph Analytics和AI4DB相关学习资料/路径
 
 ---
 
 ## 目录
+- [导论](#导论)
 - [视频课程](#视频课程)
 - [理论及论文](#理论及论文)
-- [学习资料](#学习资料)
-- [相关会议](#相关会议)
-- [论文写作](#论文写作)
 - [其他](#其他)
+
+## 导论
+Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
+
+在Graph Analytics和AI for Database领域，我们一般关注来自以下会议的学术论文:
+
+<table>
+    <tr>
+        <th>Category</th><th>Conference</th><th>Link</th><th>Comment</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Database</td><td>SIGMOD</td><td> <a href="https://dblp.org/db/conf/sigmod/sigmod2022.html" target="_blank">DBLP, </a>  <a href="https://2022.sigmod.org/" target="_blank">官网</a>  </td> <td> Pioneering conference in Database</td>
+    </tr>
+    <tr>
+        <td>VLDB</td><td><a href="http://vldb.org/pvldb/volumes/16/" target="_blank">VLDB</a></td> <td> </td>
+    </tr>
+    <tr>
+        <td>ICDE</td><td> <a href="https://icde2023.ics.uci.edu/" target="_blank">ICDE</a> </td>  <td> </td>
+    </tr>
+    <tr>
+        <td rowspan="3">AI/ML/DL</td><td>ICML</td><td> <a href="https://dblp.org/db/conf/icml/icml2022.html" target="_blank">ICML</a> </td>  <td> </td>
+    </tr>
+    <tr>
+        <td>ICLR</td><td> <a href="https://dblp.org/db/conf/iclr/iclr2022.html" target="_blank">ICLR</a> </td>  <td> </td>
+    </tr>
+    <tr>
+        <td>NeurIPS</td><td> <a href="https://papers.nips.cc/paper/2022" target="_blank">NeurIPS</a> </td>  <td> </td>
+    </tr>
+    <tr>
+        <td rowspan="1">Data Mining</td><td>KDD</td><td> <a href="https://kdd.org/kdd2022/paperRT.html" target="_blank">KDD</a> </td>  <td> </td>
+    </tr>
+</table>
+
 
 
 ## 视频课程
@@ -62,62 +94,19 @@ Graph Analytics和AL4DB相关学习资料/路径
 - [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
 
 
-## 学习资料
-- [https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
-
-
-## 相关会议
-
-### Database三大会
-#### 1: SIGMOD
-- DBLP [https://dblp.org/db/conf/sigmod/sigmod2022.html](https://dblp.org/db/conf/sigmod/sigmod2022.html)
-- 官网 [https://2022.sigmod.org/](https://2022.sigmod.org/)
-- 如果要在DBLP中切换成SIGMODxxxx, 其中xxxx代表年份，只需要把上面最后的sigmod2022变成sigmodxxxx
-
-#### 2: VLDB
-- [http://vldb.org/pvldb/volumes/16/](http://vldb.org/pvldb/volumes/16/)
-
-#### 3: ICDE
-- [https://icde2023.ics.uci.edu/](https://icde2023.ics.uci.edu/)
-
-### 机器/深度学习三大会
-
-#### 1: ICML
-- [https://dblp.org/db/conf/icml/icml2022.html](https://dblp.org/db/conf/icml/icml2022.html)
-- 要修改年份的话，与上面类似
-
-
-#### 2: ICLR
-- [https://dblp.org/db/conf/iclr/iclr2022.html](https://dblp.org/db/conf/iclr/iclr2022.html)
-
-
-#### 3: NeurIPS
-- [https://papers.nips.cc/paper/2022](https://papers.nips.cc/paper/2022)
-
-### Data mining会议
-
-#### 1: KDD
-- [https://kdd.org/kdd2022/paperRT.html](https://kdd.org/kdd2022/paperRT.html)
-
-
-## 论文写作
-
-### 写作
-- [Writing tips from MLNLP](https://github.com/MLNLP-World/Paper-Writing-Tips#%E7%99%BE%E5%AE%B6%E4%B9%8B%E8%A8%80)
-- [在线latex编辑器](https://www.latexlive.com/)
-
-
-### 画图
-- [https://github.com/guanyingc/python_plot_utils](https://github.com/guanyingc/python_plot_utils)
-
-
-### 工具
-- [谷歌学术](https://scholar.google.com.hk/)
-- [ChatGPT](https://poe.com/ChatGPT)
-- [ChatGPT学术润色的prompt参考](https://github.com/ashawkey/chatgpt_please_improve_my_paper_writing)
-
 
 
 
 ## 其他
 - [PKU Lanco Lab 入门指导](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
+- [CS224w学习资料](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
+
+### 论文写作
+- [Writing tips from MLNLP](https://github.com/MLNLP-World/Paper-Writing-Tips#%E7%99%BE%E5%AE%B6%E4%B9%8B%E8%A8%80)
+- [在线latex编辑器](https://www.latexlive.com/)
+### 画图
+- [https://github.com/guanyingc/python_plot_utils](https://github.com/guanyingc/python_plot_utils)
+### 工具
+- [谷歌学术](https://scholar.google.com.hk/)
+- [ChatGPT](https://chat.openai.com/), [POE: 集成多个语音模型](https://poe.com/ChatGPT)
+- [ChatGPT学术润色的prompt参考](https://github.com/ashawkey/chatgpt_please_improve_my_paper_writing)
