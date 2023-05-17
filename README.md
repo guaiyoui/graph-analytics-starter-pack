@@ -109,7 +109,7 @@ Learning-based community search的方法，一般把问题model成node classific
 
 <p id="GeneralizedAnomalyDetection"></p>
 
-## 2: Generalized Anomaly Detection
+## Generalized Anomaly Detection
 Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
 ### 综述
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
@@ -130,15 +130,15 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 <p id="GraphSimilarityComputation"></p>
 
-## 3: Graph Similarity Computation
+## Graph Similarity Computation
 
 <p id="CardinalityEstimation"></p>
 
-## 4: Cardinality Estimation
+## Cardinality Estimation
 
 <p id="SubgraphMatching"></p>
 
-## 5: Subgraph Matching/Counting
+## Subgraph Matching/Counting
 
 
 
