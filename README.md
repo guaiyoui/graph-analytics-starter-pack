@@ -11,16 +11,28 @@ Graph Analytics和AI4DB相关学习资料/路径
 ---
 
 ## 目录
-- [导论](#导论)
-- [视频课程](#视频课程)
-- [研究领域](#研究领域)
-    - [Cohesive Subgraph Discovery](#CohesiveSubgraphDiscovery)
-    - [Generalized Anomaly Detection](#GeneralizedAnomalyDetection)
-    - [Graph Similarity Computation](#GraphSimilarityComputation)
-    - [Cardinality Estimation](#CardinalityEstimation)
-    - [Subgraph Matching/Counting](#SubgraphMatching)
-    - ......
-- [其他](#其他)
+- [graph-analytics-starter-pack](#graph-analytics-starter-pack)
+  - [目录](#目录)
+  - [导论](#导论)
+  - [视频课程](#视频课程)
+    - [主要课程](#主要课程)
+    - [参考课程](#参考课程)
+    - [重点章节](#重点章节)
+  - [Cohesive Subgraph Discovery](#cohesive-subgraph-discovery)
+    - [1.1 Subgraph-model-based Community Search](#11-subgraph-model-based-community-search)
+    - [1.2 Metric-based Community Search](#12-metric-based-community-search)
+    - [1.3 Learning-based Community Search](#13-learning-based-community-search)
+  - [Generalized Anomaly Detection](#generalized-anomaly-detection)
+    - [综述](#综述)
+    - [Anomaly Detection](#anomaly-detection)
+    - [Fraud Detection](#fraud-detection)
+  - [Graph Similarity Computation](#graph-similarity-computation)
+  - [Cardinality Estimation](#cardinality-estimation)
+  - [Subgraph Matching/Counting](#subgraph-matchingcounting)
+  - [其他](#其他)
+    - [论文写作](#论文写作)
+    - [画图](#画图)
+    - [工具](#工具)
 
 ## 导论
 Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
@@ -106,6 +118,7 @@ Learning-based community search的方法，一般把问题model成node classific
 |VLDB2021|[ICS-GNN: lightweight interactive community search via graph neural network](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)|[[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/ics-gnn.zip)| Find a community in multiple iterations (i.e., hops)|---|
 |VLDB2022|[Query Driven-Graph Neural Networks for Community Search](https://arxiv.org/abs/2104.03583)|[[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337)|QD-GNN and AQD-GNN for community search and attributed community search respectively|Take query into account. Study multiple CS-related settings.|
 |ICDE2023|[Community Search: A Meta-Learning Approach](https://arxiv.org/abs/2201.00288)|---|CS using small data|---|
+|ICDE2023|[COCLEP: Contrastive Learning-based Semi-Supervised Community Search](https://siqiangluo.com/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf)|---|论文针对目前基于深度学习的社区搜索模型依赖大量实际难以获取的标记数据进行训练的问题，提出了一种基于对比学习和数据分区的社区搜索方法(COCLEP)，只需极少量的标签即可实现高效且有效的社区查询任务，其基本原理是通过所提出的图神经网络和标签感知对比学习器来学习查询依赖的模型。此外，论文从理论上证明了可以利用最小割将COCLEP扩展用于大型数据集。|---|
 
 <p id="GeneralizedAnomalyDetection"></p>
 
