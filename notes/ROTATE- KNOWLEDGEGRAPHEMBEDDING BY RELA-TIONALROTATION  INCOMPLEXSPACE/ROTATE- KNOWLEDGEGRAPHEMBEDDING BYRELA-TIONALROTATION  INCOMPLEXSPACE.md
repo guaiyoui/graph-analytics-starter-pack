@@ -23,7 +23,7 @@
 
 * 对称关系(如结婚关系)： r(x,y) -> r(y,x)
 * 反对称关系(如亲子关系)：r(x,y) -> -r(y,x)
-* 可逆关系(如上位词和下位词，这是两个关系互相可逆，不是一个关系)：$r_2(x,y)$ -> $r_1(y,x)$
+* 可逆关系(如上位词和下位词（水果和苹果），这是两个关系互相可逆，不是一个关系)：$r_2(x,y)$ -> $r_1(y,x)$
 * 组合关系(妈妈的丈夫=父亲)：$r_2(x,y)\wedge r_3(y,x)$ -> $r_1(x,z)$
 
 很多现有的方法试图对上面的几种关系进行建模表示，比如有SE、TransE、TranX、DistMulti、ComlEx等方法。
@@ -77,14 +77,14 @@ $$
 minimize \quad L=-\log \sigma\left(\gamma-d_r(\mathbf{h}, \mathbf{t})\right)-\sum_{i=1}^n \frac{1}{k} \log \sigma\left(d_r\left(\mathbf{h}_i^{\prime}, \mathbf{t}_i^{\prime}\right)-\gamma\right)
 $$
 
-$\sigma$是sigmoid函数，这里的k是模型选取的嵌入维度（TODO我怀疑是写错了，1\n更合理），同时每次负采样我们使用n个负样本,$\gamma$是一个固定的参数（TODO我也不知道怎么设定的）。
+$\sigma$是sigmoid函数，这里的k是模型选取的嵌入维度，同时每次负采样我们使用n个负样本,$\gamma$是一个固定的参数,保证。
 
 负采样算法也是来源于近似softmax函数的需要。其他近似方法是试图估计log-softmax函数，负采样方法放弃了估计log-softmax函数，而是直接使用新的目标函数来达到同样的最终最大化log-softmax函数的目的。这里可以简单理解：等式右边第一项$-\log \sigma\left(\gamma-d_r(\mathbf{h}, \mathbf{t})\right)$中的$d_r(h,t)$取样于真实关系生成器，是正样本；等式右边第二项$-\sum_{i=1}^n \frac{1}{k} \log \sigma\left(d_r\left(\mathbf{h}_i^{\prime}, \mathbf{t}_i^{\prime}\right)-\gamma\right)$中的$d_r(h_i^\prime,h_i^\prime)$取样于一个另外的均匀分布，是负样本。讲到这里目标函数的定义在这里就很明显了。另外softmax的各种近似方法，这篇[博客](https://www.ruder.io/word-embeddings-softmax/)笔者认为写的非常好。
 
 作者认为上面那种从均匀随机分布中抽取样本的方法非常低效，因为这样抽出来的很多负样本显然是负样本，不用机器学习都知道，这就导致很低效。因此，本文提出自对抗负采样[Self-adversarial negative sampling]，这种方法也可以应用到其他知识图谱上。具体而言，自对抗负采样使用目前已经学到的机器学习模型来计算负样本的分布，也就是从下面的分布中抽取负样本（TODO 下面的公式似乎是写错了）：
 
 $$
-p\left(h_j^{\prime}, r, t_j^{\prime} \mid\left\{\left(h_i, r_i, t_i\right)\right\}\right)=\frac{\exp \alpha f_r\left(\mathbf{h}_j^{\prime}, \mathbf{t}_j^{\prime}\right)}{\sum_i \exp \alpha f_r\left(\mathbf{h}_i^{\prime}, \mathbf{t}_i^{\prime}\right)}
+p\left(h_j^{\prime}, r, t_j^{\prime} \mid\left\{\left(h_i, r_i, t_i\right)\right\}\right)=\frac{\exp (\alpha f_r\left(\mathbf{h}_j^{\prime}, \mathbf{t}_j^{\prime}\right))}{\sum_i \exp \alpha f_r\left(\mathbf{h}_i^{\prime}, \mathbf{t}_i^{\prime}\right)}
 $$
 
 这里的$\alpha$是一个超参数，可以表示采样的temperature（TODO？？），同时如果直接用这个方法去一个个找负采样的样本，会让计算变的很复杂，我们可以直接将这个概率作为负采样的权重，将损失函数变成下面的形式：
