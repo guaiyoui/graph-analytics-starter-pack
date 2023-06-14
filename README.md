@@ -27,12 +27,15 @@ Graph Analytics和AI4DB相关学习资料/路径
     - [Anomaly Detection](#anomaly-detection)
     - [Fraud Detection](#fraud-detection)
   - [Graph Similarity Computation](#graph-similarity-computation)
-  - [Cardinality Estimation](#cardinality-estimation)
   - [Subgraph Matching/Counting](#subgraph-matchingcounting)
+  - [Cardinality Estimation](#cardinality-estimation)
+  - [Graph4DB/Tabular](#Graph4DB)
+  - [Vector Database](#VectorDB)
   - [其他](#其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
+
 
 ## 导论
 Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
@@ -128,8 +131,12 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
 ### Anomaly Detection
-- ICLR2022 anomaly detection for tabular data with internal contrastive learning. [[paper]](https://openreview.net/forum?id=_hszZbt46bT)
-- ..... To be continued
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|ICLR2022|[Anomaly detection for tabular data with internal contrastive learning.](https://openreview.net/forum?id=_hszZbt46bT)|[[code]](https://openreview.net/forum?id=_hszZbt46bT)| KNN and Contrastive Learning for Tabular data| -- |
+|ICDE2023|[Unsupervised Graph Outlier Detection: Problem Revisit, New Insight, and Superior Method.](https://fanzhangcs.github.io/)|---| --- | --- |
+
 
 ### Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
@@ -145,15 +152,30 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 ## Graph Similarity Computation
 
-<p id="CardinalityEstimation"></p>
-
-## Cardinality Estimation
 
 <p id="SubgraphMatching"></p>
 
 ## Subgraph Matching/Counting
 
+<p id="CardinalityEstimation"></p>
 
+## Cardinality Estimation
+
+<p id="Graph4DB"></p>
+
+## Graph4DB/Tabular
+
+Graphs are a valuable tool for representing connections between entities, while tabular or relational data is a convenient and user-friendly way to store information. Researchers frequently employ graphs to depict interdependencies among records, attributes, elements, and schemas within and across tables. It is worth noting that in contemporary usage, the term "tabular deep learning" is often used to refer to the application of deep learning techniques to relational data organized as records, while the term "database" is often reserved to refer specifically to the software and infrastructure used to manage and manipulate such data.
+
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|PODS2023|[Databases as Graphs: Predictive Queries for Declarative Machine Learning.](https://dl.acm.org/doi/abs/10.1145/3584372.3589939)|---| Using hypergraph to model the relationship behind the records| -- |
+|---|[Enabling tabular deep learning when d ge n with an auxiliary knowledge graph](https://arxiv.org/abs/2306.04766)|---| --- | -- |
+
+<p id="VectorDB"></p>
+
+## Vector Database
 
 
 
