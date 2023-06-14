@@ -171,7 +171,8 @@ Graphs are a valuable tool for representing connections between entities, while 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
 |PODS2023|[Databases as Graphs: Predictive Queries for Declarative Machine Learning.](https://dl.acm.org/doi/abs/10.1145/3584372.3589939)|---| Using hypergraph to model the relationship behind the records| -- |
-|---|[Enabling tabular deep learning when d ge n with an auxiliary knowledge graph](https://arxiv.org/abs/2306.04766)|---| --- | -- |
+|---|[Enabling tabular deep learning when d ge n with an auxiliary knowledge graph](https://arxiv.org/abs/2306.04766)|---| Capture the relation between two attributes by KG | -- |
+|CIKM22|[Local Contrastive Feature learning for Tabular Data](https://dl.acm.org/doi/10.1145/3511808.3557630)|---| Capture the relation between two attributes by maximum spanning tree | -- |
 
 <p id="VectorDB"></p>
 
