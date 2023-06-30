@@ -29,8 +29,8 @@ Graph Analytics和AI4DB相关学习资料/路径
   - [Graph Similarity Computation](#graph-similarity-computation)
   - [Subgraph Matching/Counting](#subgraph-matchingcounting)
   - [Cardinality Estimation](#cardinality-estimation)
-  - [Graph4DB/Tabular](#Graph4DB)
-  - [Vector Database](#VectorDB)
+  - [Graph4DB/Tabular](#graph4dbtabular)
+  - [Vector Database](#vector-database)
   - [其他](#其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
@@ -121,7 +121,7 @@ Learning-based community search的方法，一般把问题model成node classific
 |VLDB2021|[ICS-GNN: lightweight interactive community search via graph neural network](https://dl.acm.org/doi/pdf/10.14778/3447689.3447704)|[[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/ics-gnn.zip)| Find a community in multiple iterations (i.e., hops)|---|
 |VLDB2022|[Query Driven-Graph Neural Networks for Community Search](https://arxiv.org/abs/2104.03583)|[[code]](https://github.com/lizJyl/Codes-for-Peer-Review-of-VLDB-August-337)|QD-GNN and AQD-GNN for community search and attributed community search respectively|Take query into account. Study multiple CS-related settings.|
 |ICDE2023|[Community Search: A Meta-Learning Approach](https://arxiv.org/abs/2201.00288)|---|CS using small data|---|
-|ICDE2023|[COCLEP: Contrastive Learning-based Semi-Supervised Community Search](https://siqiangluo.com/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf)|---|论文针对目前基于深度学习的社区搜索模型依赖大量实际难以获取的标记数据进行训练的问题，提出了一种基于对比学习和数据分区的社区搜索方法(COCLEP)，只需极少量的标签即可实现高效且有效的社区查询任务，其基本原理是通过所提出的图神经网络和标签感知对比学习器来学习查询依赖的模型。此外，论文从理论上证明了可以利用最小割将COCLEP扩展用于大型数据集。|---|
+|ICDE2023|[COCLEP: Contrastive Learning-based Semi-Supervised Community Search](https://siqiangluo.com/docs/COCLEP__Contrastive_Learning_based_Semi_Supervised_Community_Search__camera_ready_.pdf)|[[code]](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/COCLEP.zip)|论文针对目前基于深度学习的社区搜索模型依赖大量实际难以获取的标记数据进行训练的问题，提出了一种基于对比学习和数据分区的社区搜索方法(COCLEP)，只需极少量的标签即可实现高效且有效的社区查询任务，其基本原理是通过所提出的图神经网络和标签感知对比学习器来学习查询依赖的模型。此外，论文从理论上证明了可以利用最小割将COCLEP扩展用于大型数据集。|---|
 
 <p id="GeneralizedAnomalyDetection"></p>
 
