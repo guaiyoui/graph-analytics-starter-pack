@@ -97,7 +97,7 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
 <p id="CohesiveSubgraphDiscovery"></p>
 
 ## Cohesive Subgraph Discovery
-Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。
+Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。这篇survey：[A Survey on Machine Learning Solutions for Graph Pattern Extraction](https://arxiv.org/abs/2204.01057): （pay close attention to Ch2.6 **community search**.）很好的讲清楚了我们工作的几篇baseline文章。
 
 ### 1.1 Subgraph-model-based Community Search
 Subgraph-model-based community search model the community as various subgraph models, e.g., k-core, k-truss, and k connected component.
