@@ -173,13 +173,20 @@ Graphs are a valuable tool for representing connections between entities, while 
 |PODS2023|[Databases as Graphs: Predictive Queries for Declarative Machine Learning.](https://dl.acm.org/doi/abs/10.1145/3584372.3589939)|---| Using hypergraph to model the relationship behind the records| -- |
 |---|[Enabling tabular deep learning when d ge n with an auxiliary knowledge graph](https://arxiv.org/abs/2306.04766)|---| Capture the relation between two attributes by KG | -- |
 |CIKM22|[Local Contrastive Feature learning for Tabular Data](https://dl.acm.org/doi/10.1145/3511808.3557630)|---| Capture the relation between two attributes by maximum spanning tree | -- |
+|NIPS22|[Learning enhanced representations for tabular data via neighborhood propagation](https://arxiv.org/abs/2206.06587)|---| --- | -- |
+|dlpkdd2021|[TabGNN: Multiplex Graph Neural Network for Tabular Data Prediction](https://arxiv.org/abs/2108.09127)|---| --- | -- |
 
 <p id="VectorDB"></p>
 
 ## Vector Database
 
+Similarity search at a very large scale.
 
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2023|[Near-Duplicate Sequence Search at Scale for Large Language Model Memorization.](https://dl.acm.org/doi/abs/10.1145/3589324)|---| ---| -- |
 
+Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](https://www.youtube.com/watch?v=9VgpXcfJYvw)
 
 
 
