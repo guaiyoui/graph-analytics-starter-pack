@@ -68,6 +68,22 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
         <td rowspan="1">Data Mining</td><td>KDD</td><td> <a href="https://kdd.org/kdd2022/paperRT.html" target="_blank">KDD</a> </td>  <td> </td>
     </tr>
 </table>
+GNN的全面介绍[A Comprehensive Survey on Graph Neural Networks](https://ieeexplore.ieee.org/document/9046288)
+
+GNN常用pytorch实现，这里有一系列使用pytorch的教程https://pytorch-geometric.readthedocs.io/en/latest/
+
+
+
+如果对深度学习不够了解，可以看（以下为参考，不需要都看）
+
+* 这本书：Deep Learninghttps://github.com/exacity/deeplearningbook-chinese
+* 这门课：Bilibili搜索 李宏毅 机器学习
+* 课+书：动手学深度学习
+
+
+
+其它可能有参考价值的斯坦福大学课程：cs224n(NLP) cs224w(graph) cs229(ML) cs231n(CV) cs285(RL)
+
 
 
 
