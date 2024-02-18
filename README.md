@@ -18,20 +18,20 @@ Graph Analytics和AI4DB相关学习资料/路径
     - [主要课程](#主要课程)
     - [参考课程](#参考课程)
     - [重点章节](#重点章节)
-  - [Cohesive Subgraph Discovery](#cohesive-subgraph-discovery)
+  - [1: Cohesive Subgraph Discovery](#cohesive-subgraph-discovery)
     - [1.1 Subgraph-model-based Community Search](#11-subgraph-model-based-community-search)
     - [1.2 Metric-based Community Search](#12-metric-based-community-search)
     - [1.3 Learning-based Community Search](#13-learning-based-community-search)
-  - [Generalized Anomaly Detection](#generalized-anomaly-detection)
+  - [2: Generalized Anomaly Detection](#generalized-anomaly-detection)
     - [综述](#综述)
     - [Anomaly Detection](#anomaly-detection)
     - [Fraud Detection](#fraud-detection)
-  - [Graph Similarity Computation](#graph-similarity-computation)
-  - [Subgraph Matching/Counting](#subgraph-matchingcounting)
-  - [Cardinality Estimation](#cardinality-estimation)
-  - [Graph4DB/Tabular](#graph4dbtabular)
-  - [Vector Database](#vector-database)
-  - [其他](#其他)
+  - [3: Graph Similarity Computation](#graph-similarity-computation)
+  - [4: Subgraph Matching/Counting](#subgraph-matchingcounting)
+  - [5: Cardinality Estimation](#cardinality-estimation)
+  - [6: Graph4DB/Tabular](#graph4dbtabular)
+  - [7: Vector Database](#vector-database)
+  - [8: 其他](#其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
@@ -112,7 +112,7 @@ GNN常用pytorch实现，这里有一系列使用pytorch的教程https://pytorch
 
 <p id="CohesiveSubgraphDiscovery"></p>
 
-## Cohesive Subgraph Discovery
+## 1: Cohesive Subgraph Discovery
 Cohesive Subgraph Discovery是一种在图形数据中寻找具有高度内聚性的子图的问题。这篇survey：[A Survey on Machine Learning Solutions for Graph Pattern Extraction](https://arxiv.org/abs/2204.01057)（pay close attention to Ch2.6 **community search**）很好的讲清楚了我们工作的几篇baseline文章。
 
 ### 1.1 Subgraph-model-based Community Search
@@ -141,10 +141,14 @@ Learning-based community search的方法，一般把问题model成node classific
 
 <p id="GeneralizedAnomalyDetection"></p>
 
-## Generalized Anomaly Detection
+## 2: Generalized Anomaly Detection
 Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
 ### 综述
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
+
+### Benchmark
+- DGraph: A Large-Scale Financial Dataset for Graph Anomaly Detection [[paper]](https://arxiv.org/abs/2207.03579) [[project page]](https://dgraph.xinye.com/dataset)
+- ADBench: Anomaly Detection Benchmark [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cf93972b116ca5268827d575f2cc226b-Abstract-Datasets_and_Benchmarks.html) [[project page]](https://github.com/Minqi824/ADBench/)
 
 ### Anomaly Detection
 
@@ -166,20 +170,20 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 <p id="GraphSimilarityComputation"></p>
 
-## Graph Similarity Computation
+## 3: Graph Similarity Computation
 
 
 <p id="SubgraphMatching"></p>
 
-## Subgraph Matching/Counting
+## 4: Subgraph Matching/Counting
 
 <p id="CardinalityEstimation"></p>
 
-## Cardinality Estimation
+## 5: Cardinality Estimation
 
 <p id="Graph4DB"></p>
 
-## Graph4DB/Tabular
+## 6: Graph4DB/Tabular
 
 Graphs are a valuable tool for representing connections between entities, while tabular or relational data is a convenient and user-friendly way to store information. Researchers frequently employ graphs to depict interdependencies among records, attributes, elements, and schemas within and across tables. It is worth noting that in contemporary usage, the term "tabular deep learning" is often used to refer to the application of deep learning techniques to relational data organized as records, while the term "database" is often reserved to refer specifically to the software and infrastructure used to manage and manipulate such data.
 
@@ -194,7 +198,7 @@ Graphs are a valuable tool for representing connections between entities, while 
 
 <p id="VectorDB"></p>
 
-## Vector Database
+## 7: Vector Database
 
 Similarity search at a very large scale.
 
@@ -207,7 +211,7 @@ Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](h
 
 
 
-## 其他
+## 8: 其他
 - [PKU Lanco Lab 入门指导](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w学习资料](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
