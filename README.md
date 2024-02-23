@@ -23,15 +23,28 @@ Graph Analytics和AI4DB相关学习资料/路径
     - [1.2 Metric-based Community Search](#12-metric-based-community-search)
     - [1.3 Learning-based Community Search](#13-learning-based-community-search)
   - [2: Generalized Anomaly Detection](#generalized-anomaly-detection)
-    - [综述](#综述)
-    - [Anomaly Detection](#anomaly-detection)
-    - [Fraud Detection](#fraud-detection)
-  - [3: Graph Similarity Computation](#graph-similarity-computation)
-  - [4: Subgraph Matching/Counting](#subgraph-matchingcounting)
-  - [5: Cardinality Estimation](#cardinality-estimation)
-  - [6: Graph4DB/Tabular](#graph4dbtabular)
-  - [7: Vector Database](#vector-database)
-  - [8: 其他](#其他)
+    - [2.1 Survey](#Survey-of-anomaly-detection)
+    - [2.2 Anomaly Detection](#anomaly-detection)
+    - [2.3 Fraud Detection](#fraud-detection)
+
+  - [3: AIGC-LLM](#AIGC-LLM)
+    - [3.1 Survey](#Survey-of-LLM)
+    - [3.2 Theory](#Theory-of-LLM)
+    - [3.3 Prompt Learning](#Prompt-learning-of-LLM)
+    - [3.4 Foundation Models](#Foundation-models-of-LLM)
+        - [Encoder-only Architecture](#Encoder-only-Architecture)
+        - [Decoder-only Architecture ](#Decoder-only-Architecture)
+        - [Encoder-decoder Architecture ](#Encoder-decoder-Architecture )
+    - [3.5 Related Repos](#Related-repo)
+    - [3.6 Datasets of LLM-AIGC](#Datasets-of-LLM-AIGC)
+    - [3.7 Tools for LLM-AIGC](#Tools-for-LLM-AIGC)
+
+  - [4: Graph Similarity Computation](#graph-similarity-computation)
+  - [5: Subgraph Matching/Counting](#subgraph-matchingcounting)
+  - [6: Cardinality Estimation](#cardinality-estimation)
+  - [7: Graph4DB/Tabular](#graph4dbtabular)
+  - [8: Vector Database](#vector-database)
+  - [9: 其他](#其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
@@ -143,14 +156,14 @@ Learning-based community search的方法，一般把问题model成node classific
 
 ## 2: Generalized Anomaly Detection
 Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
-### 综述
+### 2.1 Survey-of-anomaly-detection
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
 ### Benchmark
 - DGraph: A Large-Scale Financial Dataset for Graph Anomaly Detection [[paper]](https://arxiv.org/abs/2207.03579) [[project page]](https://dgraph.xinye.com/dataset)
 - ADBench: Anomaly Detection Benchmark [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cf93972b116ca5268827d575f2cc226b-Abstract-Datasets_and_Benchmarks.html) [[project page]](https://github.com/Minqi824/ADBench/)
 
-### Anomaly Detection
+### 2.2 Anomaly Detection
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
@@ -158,7 +171,7 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 |ICDE2023|[Unsupervised Graph Outlier Detection: Problem Revisit, New Insight, and Superior Method.](https://fanzhangcs.github.io/)|---| --- | --- |
 
 
-### Fraud Detection
+### 2.3 Fraud Detection
 - [入门综述论文](https://github.com/safe-graph/graph-fraud-detection-papers#survey-paper-back-to-top)
 - [入门论文列表](https://github.com/safe-graph/graph-fraud-detection-papers)
 - [入门代码demo](https://github.com/finint/antifraud)
@@ -167,23 +180,100 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 - [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
 
 
+<p id="AIGCLLM"></p>
+
+## 3: AIGC-LLM
+
+### 3.1 Survey
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.2 Theory
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.3 Prompt Learning
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.4 Foundation Models
+
+
+### 3.4.1 Encoder-only Architecture
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.4.2 Decoder-only Architecture
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.4.3 Encoder-decoder Architecture
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+
+### 3.5 Related Repos
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.5 Datasets of LLM-AIGC
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+### 3.5 Tools for LLM-AIGC
+
+| Conference | Paper  |  Material | Abstract | Highlights |
+|---|---|---|---|---|
+|SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
+|VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
+
+
+
+
+### 1.2 Metric-based Community Search
+The metric-based community search methods aims to find a connected subgraph that contains the query nodes and has the largest metric, e.g., density, modularity....
+
 
 <p id="GraphSimilarityComputation"></p>
 
-## 3: Graph Similarity Computation
+## 4: Graph Similarity Computation
 
 
 <p id="SubgraphMatching"></p>
 
-## 4: Subgraph Matching/Counting
+## 5: Subgraph Matching/Counting
 
 <p id="CardinalityEstimation"></p>
 
-## 5: Cardinality Estimation
+## 6: Cardinality Estimation
 
 <p id="Graph4DB"></p>
 
-## 6: Graph4DB/Tabular
+## 7: Graph4DB/Tabular
 
 Graphs are a valuable tool for representing connections between entities, while tabular or relational data is a convenient and user-friendly way to store information. Researchers frequently employ graphs to depict interdependencies among records, attributes, elements, and schemas within and across tables. It is worth noting that in contemporary usage, the term "tabular deep learning" is often used to refer to the application of deep learning techniques to relational data organized as records, while the term "database" is often reserved to refer specifically to the software and infrastructure used to manage and manipulate such data.
 
@@ -198,7 +288,7 @@ Graphs are a valuable tool for representing connections between entities, while 
 
 <p id="VectorDB"></p>
 
-## 7: Vector Database
+## 8: Vector Database
 
 Similarity search at a very large scale.
 
@@ -211,7 +301,7 @@ Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](h
 
 
 
-## 8: 其他
+## 9: 其他
 - [PKU Lanco Lab 入门指导](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w学习资料](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
