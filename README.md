@@ -18,33 +18,31 @@ Graph Analytics和AI4DB相关学习资料/路径
     - [主要课程](#主要课程)
     - [参考课程](#参考课程)
     - [重点章节](#重点章节)
-  - [1: Cohesive Subgraph Discovery](#cohesive-subgraph-discovery)
+  - [1. Cohesive Subgraph Discovery](#1-cohesive-subgraph-discovery)
     - [1.1 Subgraph-model-based Community Search](#11-subgraph-model-based-community-search)
     - [1.2 Metric-based Community Search](#12-metric-based-community-search)
     - [1.3 Learning-based Community Search](#13-learning-based-community-search)
-  - [2: Generalized Anomaly Detection](#generalized-anomaly-detection)
-    - [2.1 Survey](#Survey-of-anomaly-detection)
-    - [2.2 Anomaly Detection](#anomaly-detection)
-    - [2.3 Fraud Detection](#fraud-detection)
-
-  - [3: AIGC-LLM](#AIGC-LLM)
-    - [3.1 Survey](#Survey-of-LLM)
-    - [3.2 Theory](#Theory-of-LLM)
-    - [3.3 Prompt Learning](#Prompt-learning-of-LLM)
-    - [3.4 Foundation Models](#Foundation-models-of-LLM)
-        - [Encoder-only Architecture](#Encoder-only-Architecture)
-        - [Decoder-only Architecture ](#Decoder-only-Architecture)
-        - [Encoder-decoder Architecture ](#Encoder-decoder-Architecture )
-    - [3.5 Related Repos](#Related-repo)
-    - [3.6 Datasets of LLM-AIGC](#Datasets-of-LLM-AIGC)
-    - [3.7 Tools for LLM-AIGC](#Tools-for-LLM-AIGC)
-
-  - [4: Graph Similarity Computation](#graph-similarity-computation)
-  - [5: Subgraph Matching/Counting](#subgraph-matchingcounting)
-  - [6: Cardinality Estimation](#cardinality-estimation)
-  - [7: Graph4DB/Tabular](#graph4dbtabular)
-  - [8: Vector Database](#vector-database)
-  - [9: 其他](#其他)
+  - [2. Generalized Anomaly Detection](#2-generalized-anomaly-detection)
+    - [2.1 Survey of anomaly detection and benchmarks](#21-survey-of-anomaly-detection-and-benchmarks)
+    - [2.2 Anomaly Detection](#22-anomaly-detection)
+    - [2.3 Fraud Detection](#23-fraud-detection)
+  - [3. AIGC-LLM](#3-aigc-llm)
+    - [3.1 Survey of AIGC-LLM](#31-survey-of-aigc-llm)
+    - [3.2 Theory of LLM-AIGC](#32-theory-of-aigc-llm)
+    - [3.3 Prompt Learning](#33-prompt-learning)
+    - [3.4 Foundation Models](#34-foundation-models)
+        - [3.4.1 Encoder-only Architecture](#341-encoder-only-architecture)
+        - [3.4.2 Decoder-only Architecture ](#342-decoder-only-architecture)
+        - [3.4.3 Encoder-decoder Architecture ](#343-encoder-decoder-architecture )
+    - [3.5 Related Repos](#35-related-repos)
+    - [3.6 Datasets of LLM-AIGC](#36-datasets-of-llm-aigc)
+    - [3.7 Tools for LLM-AIGC](#37-tools-for-llm-aigc)
+  - [4. Graph Similarity Computation](#4-graph-similarity-computation)
+  - [5. Subgraph Matching and Counting](#5-subgraph-matching-and-counting)
+  - [6. Cardinality Estimation](#6-cardinality-estimation)
+  - [7. Graph for DB and tabular data](#7-graph-for-db-and-tabular-data)
+  - [8. Vector Database](#8-vector-database)
+  - [9. 其他](#9-其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
@@ -156,10 +154,10 @@ Learning-based community search的方法，一般把问题model成node classific
 
 ## 2: Generalized Anomaly Detection
 Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly detection, novelty detection, open set recognition, out-of-distribution detection 和 outlier detection.
-### 2.1 Survey-of-anomaly-detection
+
+### 2.1 Survey of anomaly detection and Benchmarks
 - Generalized Out-of-Distribution Detection: A Survey [[paper]](https://arxiv.org/pdf/2110.11334.pdf)
 
-### Benchmark
 - DGraph: A Large-Scale Financial Dataset for Graph Anomaly Detection [[paper]](https://arxiv.org/abs/2207.03579) [[project page]](https://dgraph.xinye.com/dataset)
 - ADBench: Anomaly Detection Benchmark [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cf93972b116ca5268827d575f2cc226b-Abstract-Datasets_and_Benchmarks.html) [[project page]](https://github.com/Minqi824/ADBench/)
 
@@ -184,14 +182,14 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 ## 3: AIGC-LLM
 
-### 3.1 Survey
+### 3.1 Survey of AIGC-LLM
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
 |SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
 |VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
 
-### 3.2 Theory
+### 3.2 Theory of AIGC-LLM
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
@@ -237,14 +235,14 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 |SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
 |VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
 
-### 3.5 Datasets of LLM-AIGC
+### 3.6 Datasets of LLM-AIGC
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
 |SIGMOD2022|[DMCS: Density Modularity based Community Search](https://dl.acm.org/doi/abs/10.1145/3514221.3526137)|---| maximize the density modularity| Propose a new modulariity called density modularity to alleviate free-rider effect and resolution limit problem. |
 |VLDB2015|[Robust local community detection: on free rider effect and its elimination](http://www.vldb.org/pvldb/vol8/p798-wu.pdf)|---| maximize the query biased density | Systematically study the many goodness functions, and provide detailed proof. |
 
-### 3.5 Tools for LLM-AIGC
+### 3.7 Tools for LLM-AIGC
 
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
@@ -265,7 +263,7 @@ The metric-based community search methods aims to find a connected subgraph that
 
 <p id="SubgraphMatching"></p>
 
-## 5: Subgraph Matching/Counting
+## 5: Subgraph Matching and Counting
 
 <p id="CardinalityEstimation"></p>
 
@@ -273,7 +271,7 @@ The metric-based community search methods aims to find a connected subgraph that
 
 <p id="Graph4DB"></p>
 
-## 7: Graph4DB/Tabular
+## 7: Graph for DB and tabular data
 
 Graphs are a valuable tool for representing connections between entities, while tabular or relational data is a convenient and user-friendly way to store information. Researchers frequently employ graphs to depict interdependencies among records, attributes, elements, and schemas within and across tables. It is worth noting that in contemporary usage, the term "tabular deep learning" is often used to refer to the application of deep learning techniques to relational data organized as records, while the term "database" is often reserved to refer specifically to the software and infrastructure used to manage and manipulate such data.
 
@@ -285,6 +283,11 @@ Graphs are a valuable tool for representing connections between entities, while 
 |CIKM22|[Local Contrastive Feature learning for Tabular Data](https://dl.acm.org/doi/10.1145/3511808.3557630)|---| Capture the relation between two attributes by maximum spanning tree | -- |
 |NIPS22|[Learning enhanced representations for tabular data via neighborhood propagation](https://arxiv.org/abs/2206.06587)|---| --- | -- |
 |dlpkdd2021|[TabGNN: Multiplex Graph Neural Network for Tabular Data Prediction](https://arxiv.org/abs/2108.09127)|---| --- | -- |
+
+
+
+
+
 
 <p id="VectorDB"></p>
 
