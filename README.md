@@ -55,7 +55,8 @@ Graph Analytics和AI4DB相关学习资料/路径
   - [6: Cardinality Estimation](#6-cardinality-estimation)
   - [7: Graph for DB and tabular data](#7-graph-for-db-and-tabular-data)
   - [8: Vector Database](#8-vector-database)
-  - [9: 其他](#9-其他)
+  - [9: Differential Privacy](#9-differential-privacy)
+  - [10: 其他](#9-其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
@@ -442,18 +443,17 @@ Graphs are a valuable tool for representing connections between entities, while 
 
 Similarity search at a very large scale.
 
-## 9: Differential Privacy
-DP & Graph:
-
-DP & ML:
-https://github.com/JeffffffFu/Awesome-Differential-Privacy-and-Meachine-Learning
-
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
 |SIGMOD2023|[Near-Duplicate Sequence Search at Scale for Large Language Model Memorization.](https://dl.acm.org/doi/abs/10.1145/3589324)|---| ---| -- |
 
 Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](https://www.youtube.com/watch?v=9VgpXcfJYvw)
 
+## 9: Differential Privacy
+DP & Graph:
+
+DP & ML:
+https://github.com/JeffffffFu/Awesome-Differential-Privacy-and-Meachine-Learning
 
 
 ## 10: 其他
