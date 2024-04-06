@@ -408,7 +408,6 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 ## 4: Graph Similarity Computation
 
-
 <p id="SubgraphMatching"></p>
 
 ## 5: Subgraph Matching and Counting
@@ -443,6 +442,12 @@ Graphs are a valuable tool for representing connections between entities, while 
 
 Similarity search at a very large scale.
 
+## 9: Differential Privacy
+DP & Graph:
+
+DP & ML:
+https://github.com/JeffffffFu/Awesome-Differential-Privacy-and-Meachine-Learning
+
 | Conference | Paper  |  Material | Abstract | Highlights |
 |---|---|---|---|---|
 |SIGMOD2023|[Near-Duplicate Sequence Search at Scale for Large Language Model Memorization.](https://dl.acm.org/doi/abs/10.1145/3589324)|---| ---| -- |
@@ -451,8 +456,7 @@ Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](h
 
 
 
-
-## 9: 其他
+## 10: 其他
 - [PKU Lanco Lab 入门指导](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w学习资料](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
