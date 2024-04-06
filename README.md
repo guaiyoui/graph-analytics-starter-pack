@@ -56,11 +56,12 @@ Graph Analytics和AI4DB相关学习资料/路径
   - [7: Graph for DB and tabular data](#7-graph-for-db-and-tabular-data)
   - [8: Vector Database](#8-vector-database)
   - [9: Differential Privacy](#9-differential-privacy)
-  - [10: 其他](#9-其他)
+  - [10: Graph analytics on GPUs](./GPU/)
+  - [11: 其他](#9-其他)
     - [论文写作](#论文写作)
     - [画图](#画图)
     - [工具](#工具)
-- [graph analytics on GPUs](./GPU/)
+
 
 ## 导论
 Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
