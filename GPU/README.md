@@ -1,6 +1,10 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/guaiyoui/graph-analytics-starter-pack) 
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
 
+# Tutorial
+
+The tutorial with sample soulution can be found [here](./tutorial/)
+
 # Graph Analytics on GPU
 
 
