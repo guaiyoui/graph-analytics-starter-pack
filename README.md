@@ -50,7 +50,7 @@ Thanks to the following people for organizing and guiding this project
     - [3.5 Related Repos](#35-related-repos)
     - [3.6 Datasets of LLM-AIGC](#36-datasets-of-llm-aigc)
     - [3.7 Tools for LLM-AIGC](#37-tools-for-llm-aigc)
-  - [4: Differential Privacy](#4-differential-privacy)
+  - [4: Differential Privacy]((./sections/DifferentialPrivacy/))
     - [4.1 DP Theory](#41-survey-of-aigc-llm)
     - [4.2 DP and Meachine Learning](#42-theory-of-aigc-llm)
     - [4.3 Federated Learning](#43-prompt-learning)
@@ -140,7 +140,13 @@ cs224n (NLP), cs224w (graph), cs229 (ML), cs231n (CV), cs285 (RL)
 |6| Subgraph Matching and Counting |  [1: A Learned Sketch for Subgraph Counting](https://dl.acm.org/doi/pdf/10.1145/3448016.3457289)<br>[2: Neural Subgraph Counting with Wasserstein Estimator](https://dl.acm.org/doi/pdf/10.1145/3514221.3526163) | Refer to CS224W 12th. The reading list provides two papers on the subgraph counting (NP-hard) problem (from SIGMOD 2021 and SIGMOD 2022). The repository code for the SubCon paper is at [Contrastive Learning on Graph](https://github.com/yzjiao/Subg-Con)  |
 
 
+<p id="CohesiveSubgraphDiscovery"></p>
 
+## 1: Cohesive Subgraph Discovery
+
+Cohesive Subgraph Discovery is a problem of finding highly cohesive subgraphs in graph data. This survey: [A Survey on Machine Learning Solutions for Graph Pattern Extraction](https://arxiv.org/abs/2204.01057) (pay close attention to Ch2.6 community search) clearly explains several baseline articles for our work.
+
+For more details, please refer to [1: Cohesive Subgraph Discovery](./sections/CohesiveSubgraph/)
 
 
 <p id="GeneralizedAnomalyDetection"></p>
@@ -172,27 +178,37 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 
 
 
-## 9: Differential Privacy
-DP & Graph:
+## 4: Differential Privacy
+
+Please refer to [4: Differential Privacy](./sections/DifferentialPrivacy/)
+
+and 
 
 DP & ML:
 https://github.com/JeffffffFu/Awesome-Differential-Privacy-and-Meachine-Learning
 
 
 
-## 4: Graph Similarity Computation
+## 5: Graph Analytics on GPUs
+
+Please refer to [5: Graph Analytics on GPUs](./sections/GPU/)
+
+
+
+
+## 6: Graph Similarity Computation
 
 <p id="SubgraphMatching"></p>
 
-## 5: Subgraph Matching and Counting
+## 7: Subgraph Matching and Counting
 
 <p id="CardinalityEstimation"></p>
 
-## 6: Cardinality Estimation
+## 8: Cardinality Estimation
 
 <p id="Graph4DB"></p>
 
-## 7: Graph for DB and tabular data
+## 9: Graph for DB and tabular data
 
 Graphs are a valuable tool for representing connections between entities, while tabular or relational data is a convenient and user-friendly way to store information. Researchers frequently employ graphs to depict interdependencies among records, attributes, elements, and schemas within and across tables. It is worth noting that in contemporary usage, the term "tabular deep learning" is often used to refer to the application of deep learning techniques to relational data organized as records, while the term "database" is often reserved to refer specifically to the software and infrastructure used to manage and manipulate such data.
 
