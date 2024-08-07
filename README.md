@@ -30,10 +30,10 @@ Thanks to the following people for organizing and guiding this project
 ## Table-of-Contents
 
   - [Introduction](#Introduction)
-  - [Courses](#视频课程)
-    - [主要课程](#主要课程)
-    - [参考课程](#参考课程)
-    - [重点章节](#重点章节)
+  - [Courses](#Courses)
+    - [Main Courses](#Main-Courses)
+    - [Reference Courses](#Reference-Courses)
+    - [Key Chapters](#Key-Chapters)
   - [1: Cohesive Subgraph Discovery](#1-cohesive-subgraph-discovery)
     - [1.1 Subgraph-model-based Community Search](#11-subgraph-model-based-community-search)
     - [1.2 Metric-based Community Search](#12-metric-based-community-search)
@@ -80,16 +80,16 @@ Thanks to the following people for organizing and guiding this project
 
 
 ## Introduction
-Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
+Graph Analytics and AI for Database are two important branches in today's data analysis and artificial intelligence fields. Graph Analytics helps people better understand and utilize data by analyzing graph data to reveal patterns and relationships behind the data. AI4DB uses machine learning and artificial intelligence techniques to process and manage large-scale databases, solve NP-hard graph-related problems, and improve the efficiency and accuracy of data processing.
 
-在Graph Analytics和AI for Database领域，我们一般关注来自以下会议的学术论文:
+In the fields of Graph Analytics and AI for Database, we generally focus on academic papers from the following conferences:
 
 <table>
     <tr>
         <th>Category</th><th>Conference</th><th>Link</th><th>Comment</th>
     </tr>
     <tr>
-        <td rowspan="3">Database</td><td>SIGMOD</td><td> <a href="https://dblp.org/db/conf/sigmod/sigmod2022.html" target="_blank">DBLP, </a>  <a href="https://2022.sigmod.org/" target="_blank">官网</a>  </td> <td> Pioneering conference in Database</td>
+        <td rowspan="3">Database</td><td>SIGMOD</td><td> <a href="https://dblp.org/db/conf/sigmod/sigmod2022.html" target="_blank">DBLP, </a>  <a href="https://2022.sigmod.org/" target="_blank">Official website</a>  </td> <td> Pioneering conference in Database</td>
     </tr>
     <tr>
         <td>VLDB</td><td><a href="http://vldb.org/pvldb/volumes/16/" target="_blank">VLDB</a></td> <td> </td>
@@ -110,37 +110,35 @@ Graph Analytics和AI for Database是当今数据分析和人工智能领域中�
         <td rowspan="1">Data Mining</td><td>KDD</td><td> <a href="https://kdd.org/kdd2022/paperRT.html" target="_blank">KDD</a> </td>  <td> </td>
     </tr>
 </table>
-GNN的全面介绍[A Comprehensive Survey on Graph Neural Networks](https://ieeexplore.ieee.org/document/9046288)
+[A Comprehensive Survey on Graph Neural Networks] https://ieeexplore.ieee.org/document/9046288
 
-GNN常用pytorch实现，这里有一系列使用pytorch的教程https://pytorch-geometric.readthedocs.io/en/latest/
-
-
-
-如果对深度学习不够了解，可以看（以下为参考，不需要都看）
-
-* 这本书：Deep Learninghttps://github.com/exacity/deeplearningbook-chinese
-* 这门课：Bilibili搜索 李宏毅 机器学习
-* 课+书：动手学深度学习
+GNN is commonly implemented using PyTorch. Here's a series of tutorials using PyTorch: https://pytorch-geometric.readthedocs.io/en/latest/
 
 
+If you're not familiar enough with deep learning, you can check out (the following are for reference, you don't need to look at all of them):
 
-其它可能有参考价值的斯坦福大学课程：cs224n(NLP) cs224w(graph) cs229(ML) cs231n(CV) cs285(RL)
+This book: Deep Learning https://github.com/exacity/deeplearningbook-chinese
+This course: Search for "李宏毅 机器学习" (Hung-yi Lee Machine Learning) on Bilibili
+Course + Book: Hands-on Deep Learning
+
+Other potentially valuable Stanford University courses:
+cs224n (NLP), cs224w (graph), cs229 (ML), cs231n (CV), cs285 (RL)
 
 
 
 
-## 视频课程
-### 主要课程
+## Courses
+### Main Courses
 - [Stanford CS224W Machine Learning with Graphs 课程网址](http://web.stanford.edu/class/cs224w/)
 - [Stanford CS224W Machine Learning with Graphs 课程视频](https://www.bilibili.com/video/BV1RZ4y1c7Co/?spm_id_from=333.337.search-card.all.click&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
 - [UNSW COMP9312 Data Analytics for Graphs](https://github.com/guaiyoui/awesome-graph-analytics/tree/main/COMP9312)
 
-### 参考课程
+### Reference Courses
 - [Stanford CS520 Knowledge Graphs (2021)](https://www.bilibili.com/video/BV1hb4y1r7fF/?from=search&seid=6234955209527085652&spm_id_from=333.337.0.0&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
 - [Stanford CS246 大数据挖掘 (2019)](https://www.bilibili.com/video/BV1SC4y187x1/?from=search&seid=1692751967493851255&spm_id_from=333.337.0.0&vd_source=eb83fc5d65c5d8ce4504000a8b1a7056)
 - [Stanford Course Explore](https://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Autumn=on)
 
-### 重点章节
+### Key Chapters
 | Week  | Content  | Reading List  | Material  |
 |---|---|---|---|
 |1| Node Embedding  | [1: DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)<br>[2: node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf) | 节点表征是learning中最基础的一个问题。可以参考CS224W 3rd和COMP9312 week6的内容。传统的矩阵分解方法可以参考：[矩阵分解的python实现](https://blog.csdn.net/qq_43741312/article/details/97548944) | 
