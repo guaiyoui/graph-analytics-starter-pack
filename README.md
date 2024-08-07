@@ -6,15 +6,31 @@
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
 
 
-Graph Analytics和AI4DB相关学习资料/路径
+Learning materials/paths related to Graph Analytics and AI4DB.
 
+## <img src="./pics/organizer.png" width="25" />Main Contributor
+
+Thanks to the following people for organizing and guiding this project
+
+<a href="https://github.com/guaiyoui"> <img src="pics/jianwei.jpeg"  width="80" >  </a> 
+<a href="https://github.com/cs-kaiwang">  <img src="pics/kaiwang.png"  width="80" ></a> 
+<a href="https://github.com/valleysprings">  <img src="pics/jiawei.png"  width="80" ></a> 
+<a href="https://github.com/shenmuxing">  <img src="pics/jingye.jpeg"  width="80" > </a> 
+<a href="https://github.com/ShunyangLi">  <img src="pics/shunyang.jpeg"  width="80" >  </a> 
+<a href="hhttps://github.com/jerryUNSW">  <img src="pics/yizhang.png"  width="80" >  </a> 
+<a href="https://github.com/Helloat123">  <img src="pics/ruicheng.jpeg"  width="80" >  </a> 
+<a href="https://github.com/YingAU">  <img src="pics/yingzhang.jpeg"  width="80" > </a> 
+
+
+<!-- - [graph-analytics-starter-pack](#graph-analytics-starter-pack) -->
+  <!-- - [Table-of-Contents](#Table-of-Contents) -->
 ---
+<!-- 1: Cohesive Subgraph Discovery -->
 
-## 目录
-- [graph-analytics-starter-pack](#graph-analytics-starter-pack)
-  - [目录](#目录)
-  - [导论](#导论)
-  - [视频课程](#视频课程)
+## Table-of-Contents
+
+  - [Introduction](#Introduction)
+  - [Courses](#视频课程)
     - [主要课程](#主要课程)
     - [参考课程](#参考课程)
     - [重点章节](#重点章节)
@@ -63,7 +79,7 @@ Graph Analytics和AI4DB相关学习资料/路径
     - [工具](#工具)
 
 
-## 导论
+## Introduction
 Graph Analytics和AI for Database是当今数据分析和人工智能领域中的两个重要分支。Graph Analytics通过分析图形数据来揭示数据背后的模式和关系，帮助人们更好地理解和利用数据。AI4DB则利用机器学习和人工智能技术来处理和管理大规模数据库、解决NP-hard的图相关问题，提高数据处理的效率和准确性。
 
 在Graph Analytics和AI for Database领域，我们一般关注来自以下会议的学术论文:
