@@ -176,6 +176,11 @@ Generalized Anomaly Detection包括了很多类似的问题，比如: anomaly de
 - [AAAI Risk-Aware反诈骗 Semi-Supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation](https://arxiv.org/pdf/2003.01171.pdf)
 - [TKDE Spatial-Aware反诈骗 Graph Neural Network for Fraud Detection via Spatial-temporal Attention](https://ieeexplore.ieee.org/abstract/document/9204584)
 
+## 3: AIGC-LLM
+
+Please refer to [3: AIGC-LLM](./sections/LLM/)
+
+
 
 
 ## 4: Differential Privacy
