@@ -29,45 +29,36 @@ Thanks to the following people for organizing and guiding this project
 
 ## Table-of-Contents
 
-  - [Introduction](#Introduction)
-  - [Courses](#Courses)
-    - [Main Courses](#Main-Courses)
-    - [Reference Courses](#Reference-Courses)
-    - [Key Chapters](#Key-Chapters)
-  - [1: Cohesive Subgraph Discovery](./sections/CohesiveSubgraph/)
-    - [1.1 Subgraph-model-based Community Search](#11-subgraph-model-based-community-search)
-    - [1.2 Metric-based Community Search](#12-metric-based-community-search)
-    - [1.3 Learning-based Community Search](#13-learning-based-community-search)
+- [graph-analytics-starter-pack](#graph-analytics-starter-pack)
+  - [Main Contributor](#main-contributor)
+  - [Table-of-Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Courses](#courses)
+    - [Main Courses](#main-courses)
+    - [Reference Courses](#reference-courses)
+    - [Key Chapters](#key-chapters)
+  - [1: Cohesive Subgraph Discovery](#1-cohesive-subgraph-discovery)
   - [2: Generalized Anomaly Detection](#2-generalized-anomaly-detection)
     - [2.1 Survey of anomaly detection and Benchmarks](#21-survey-of-anomaly-detection-and-benchmarks)
     - [2.2 Anomaly Detection](#22-anomaly-detection)
     - [2.3 Fraud Detection](#23-fraud-detection)
-  - [3: AIGC-LLM](./sections/LLM/)
-    - [3.1 Survey of AIGC-LLM](#31-survey-of-aigc-llm)
-    - [3.2 Theory of AIGC-LLM](#32-theory-of-aigc-llm)
-    - [3.3 Prompt Learning](#33-prompt-learning)
-    - [3.4 Foundation Models](#34-foundation-models)
-    - [3.5 Related Repos](#35-related-repos)
-    - [3.6 Datasets of LLM-AIGC](#36-datasets-of-llm-aigc)
-    - [3.7 Tools for LLM-AIGC](#37-tools-for-llm-aigc)
-  - [4: Differential Privacy]((./sections/DifferentialPrivacy/))
-    - [4.1 DP Theory](#41-survey-of-aigc-llm)
-    - [4.2 DP and Meachine Learning](#42-theory-of-aigc-llm)
-    - [4.3 Federated Learning](#43-prompt-learning)
-  - [5: Graph analytics on GPUs](./sections/GPU/)
-    - [5.1 Background of Graph Algorithms on GPUs](#51-survey-of-aigc-llm)
-    - [5.2 Coding tutorial](#52-theory-of-aigc-llm)
-    - [5.3 Open source code](#53-prompt-learning)
+  - [3: AIGC-LLM](#3-aigc-llm)
+  - [4: Differential Privacy](#4-differential-privacy)
+  - [5: Graph Analytics on GPUs](#5-graph-analytics-on-gpus)
   - [6: Graph Similarity Computation](#6-graph-similarity-computation)
   - [7: Subgraph Matching and Counting](#7-subgraph-matching-and-counting)
   - [8: Cardinality Estimation](#8-cardinality-estimation)
   - [9: Graph for DB and tabular data](#9-graph-for-db-and-tabular-data)
   - [10: Vector Database](#10-vector-database)
-  
-  - [12: Others](#12-Others)
-    - [PaperWriting](#PaperWriting)
-    - [FigureDrawing](#FigureDrawing)
-    - [Tools](#Tools)
+  - [12: GNN-based recommendation system](#12-gnn-based-recommendation-system)
+    - [GNN-based Collaborative Filtering](#gnn-based-collaborative-filtering)
+    - [GNN-based session-based/sequence-based Rec.Sys.](#gnn-based-session-basedsequence-based-recsys)
+    - [GNN-based substitute \& complement Rec.Sys.](#gnn-based-substitute--complement-recsys)
+    - [GNN-based cold-start Rec.Syc.](#gnn-based-cold-start-recsyc)
+  - [13: Others](#13-others)
+    - [PaperWriting](#paperwriting)
+    - [FigureDrawing](#figuredrawing)
+    - [Tools](#tools)
 
 
 ## Introduction
@@ -243,8 +234,61 @@ Similarity search at a very large scale.
 
 Talk 1: [Vector Database for Large Language Models in Production (Sam Partee)](https://www.youtube.com/watch?v=9VgpXcfJYvw)
 
+## 12: GNN-based recommendation system
 
-## 12: Others
+推荐系统涵盖众多子领域，难免挂一漏万，仅在此介绍部分应用GNN的推荐系统子领域。
+
+Recommender systems encompass numerous sub-domains, and it's inevitable to miss some areas. Here we only introduce some sub-domains of recommender systems that apply GNN.
+
+### GNN-based Collaborative Filtering
+
+Collaborative Filtering (CF) is one of the most classic and widely used methods in recommender systems. Its core idea is to find association patterns between similar users or items based on historical user behavior data. It mainly falls into two categories: User-based CF makes recommendations by finding similar user groups, while Item-based CF makes recommendations through similarity relationships between items.
+
+Here are some cornerstone papers of GNN-based CF. Some of which, like LightGCN, still serves as baseline or even benchmark component in many SOTA researches.
+
+| Paper  | Conference  | Year  | Highlights |
+|---|---|---|---|
+| Graph Convolutional Neural Networks for Web-Scale Recommender Systems| KDD|2018 |First paper of GNN-based Collaborative Filtering, PinSAGE |
+| Neural Graph Collaborative Filtering | SIGIR|2019 |Refinement of PinSAGE, NGCF |
+|LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation | SIGIR| 2020| The most popular benchmark model, a refinement version of NGCF, LightGCN|
+| Self-supervised Graph Learning for Recommendation| SIGIR|2021 |One of the first papers in GNN-based CF utilizing self-supervised method, SGL |
+
+### GNN-based session-based/sequence-based Rec.Sys.
+
+Session-based Recommender Systems focus on predicting the next item within an ongoing session, where a session is typically a short-term interaction sequence (such as a browsing session) with no user identification required. The key problem is: Given a sequence of user interactions $S = \{i_1, i_2, \cdots, i_t\}$ in the current session, predict the next item $i_{t+1}$ that the user is likely to interact with.
+
+Sequence-based Recommender Systems consider the complete historical sequence of user interactions across multiple sessions over time. The problem is defined as: Given a user u and their entire historical interaction sequence $H = \{i_1, i_2, \cdots, i_n\}$ ordered by timestamp, predict the next items that the user will interact with in the future.
+
+For detail information about session-based Rec.Sys. and Sequence-based Rec.Sys., please refer to:
+-  [Graph and Sequential Neural Networks in Session-based Recommendation: A Survey](https://arxiv.org/abs/2408.14851)
+
+Here are some cornerstone papers of GNN-based session-based/sequence-based Rec.Sys.
+
+| Paper  | Conference  | Year  | Highlights |
+|---|---|---|---|
+| Session-Based Recommendation with Graph Neural Networks| AAAI|2018 |SR-GNN, still a popular baseline choice. |
+
+虽然但是，如果您想在此领域做出贡献，三思而后行：我相比序列模型，尤其是Transformer架构模型，有什么优势？
+
+### GNN-based substitute & complement Rec.Sys.
+Substitute recommendation aims to suggest interchangeable items for a given query item.  Most traditional methods infer substitute relationships through item similarities, and extract semantic information from consumer reviews for this purpose. Recently, due to the semantic connection between substitutes and complements (e.g., a substitute’s complement is often also a complement of the original item) , and with the development of GNN, current mainstream models primarily use networks of co-view and co-purchase relationships to learn substitute relationships . They employ various methods to explore the latent relationships between different item interactions.
+
+Complement recommendation aims to suggest complement items (like mouse for a computer, game handle for a PS5) for a given query item. Due to semantic complextity, most methods utilize GNN-based methods just like Sub. Rec.Sys.
+
+Here are some cornerstone papers of GNN-based substitute & complement Rec.Sys.
+
+| Paper  | Conference  | Year  | Highlights |
+|---|---|---|---|
+| Inferring Networks of Substitutable and Complementary Products| KDD|2015 |Most popular dataset: Amazon datasets|
+| Measuring the Value of Recommendation Links on Product Demand| ISR| 2019| A Bussiness paper (ISR, UTD24) if you need|
+| Decoupled Graph Convolution Network for Inferring Substitutable and Complementary Items| CIKM| 2020| One of the first GNN-based Sub. & Com. Rec.Sys., predicting substitute and complement relationships simultaneously|
+| Heterogeneous graph neural networks with neighbor-SIM attention mechanism for substitute product recommendation| AAAI| 2021| |
+| Decoupled Hyperbolic Graph Attention Network for Modeling Substitutable and Complementary Item Relationships| CIKM| 2022| |
+| Enhanced Multi-Relationships Integration Graph Convolutional Network for Inferring Substitutable and Complementary Items| AAAI| 2023| |
+
+### GNN-based cold-start Rec.Syc.
+Please refer to [Awesome-Cold-Start-Recommendation](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation)
+## 13: Others
 - [PKU Lanco Lab's Introductory Guide](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w Learning Materials](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
