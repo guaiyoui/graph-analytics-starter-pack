@@ -20,6 +20,7 @@ Thanks to the following people for organizing and guiding this project
 <a href="hhttps://github.com/jerryUNSW">  <img src="pics/yizhang.png"  width="80" >  </a> 
 <a href="https://github.com/Helloat123">  <img src="pics/ruicheng.jpeg"  width="80" >  </a> 
 <a href="https://github.com/YingAU">  <img src="pics/yingzhang.jpeg"  width="80" > </a> 
+<a href="https://github.com/AllanJinYosoro">  <img src="pics/AllanJinYosoro.jpg"  width="80" > </a>
 
 
 <!-- - [graph-analytics-starter-pack](#graph-analytics-starter-pack) -->
