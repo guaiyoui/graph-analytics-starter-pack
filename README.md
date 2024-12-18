@@ -289,7 +289,31 @@ Here are some cornerstone papers of GNN-based substitute & complement Rec.Sys.
 
 ### GNN-based cold-start Rec.Syc.
 Please refer to [Awesome-Cold-Start-Recommendation](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation)
-## 13: Others
+
+## 13. Missing Data Imputation
+
+Missing data imputation focuses on methods to fill missing values in datasets, improving data completeness quality. It includes techniques based on statistical methods, regression models, and graph models.
+
+| Category                        | Title                                                                                          | Source                            | Year  |
+|----------------------------------|------------------------------------------------------------------------------------------------|-----------------------------------|-------|
+| **Vision and Survey Paper**      | An Experimental Survey of Missing Data Imputation Algorithm                                      | IEEE T KNOWL DATA EN              | 2023  |
+|                                  | Can Foundation Models Wrangle Your Data?                                                        | VLDB (Vision)                            | 2022  |
+| **Tabular Data Imputation**      | Missing Data Imputation with Uncertainty-Driven Network                                        | SIGMOD                            | 2024  |
+|                                  | ReMasker: Imputing Tabular Data with Masked Autoencoding                                        | ICLR                              | 2024  |
+|                                  | Missing Data Imputation with Uncertainty-Driven Network                                         | SIGMOD                            | 2024  |
+|                                  | Transformed distribution matching for missing value imputation                                 | ICML                              | 2023  |
+|                                  | MIRACLE: Causally-Aware Imputation via Learning Missing Data Mechanisms                         | NeurIPS                           | 2021  |
+|                                  | GAIN: Missing Data Imputation using Generative Adversarial Nets                                 | ICML                              | 2018  |
+|                                  | Multiple Imputation by Chained Equations                                                      |                                   |     2011  |
+| **Graph Data Imputation**        | Data Imputation from the Perspective of Graph Dirichlet Energy                                 | CIKM                              | 2024  |
+|                                  | Handling Missing Data via Max-Entropy Regularized Graph Autoencoder                            | AAAI                              | 2023  |
+|                                  | Accurate Node Feature Estimation with Structured Variational Graph Autoencoder                  | KDD                               | 2022  |
+|                                  | Learning on Attribute-Missing Graphs                                                           | TPAMI                             | 2021  |
+|                                  | Deconvolutional Networks on Graph Data                                                         | NeurIPS                           | 2021  |
+
+
+
+## 14: Others
 - [PKU Lanco Lab's Introductory Guide](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w Learning Materials](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
