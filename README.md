@@ -56,7 +56,9 @@ Thanks to the following people for organizing and guiding this project
     - [GNN-based session-based/sequence-based Rec.Sys.](#gnn-based-session-basedsequence-based-recsys)
     - [GNN-based substitute \& complement Rec.Sys.](#gnn-based-substitute--complement-recsys)
     - [GNN-based cold-start Rec.Syc.](#gnn-based-cold-start-recsyc)
-  - [13: Others](#13-others)
+  - [13: Missing Data Imputation](#13-missing-data-imputation)
+  - [14: LLM for Database](#14-llm-for-database)
+  - [15: Others](#15-others)
     - [PaperWriting](#paperwriting)
     - [FigureDrawing](#figuredrawing)
     - [Tools](#tools)
@@ -311,9 +313,11 @@ Missing data imputation focuses on methods to fill missing values in datasets, i
 |                                  | Learning on Attribute-Missing Graphs                                                           | TPAMI                             | 2021  |
 |                                  | Deconvolutional Networks on Graph Data                                                         | NeurIPS                           | 2021  |
 
+## 14. LLM for Database
 
+See: [LLM4DB](https://github.com/code4DB/LLM4DB)
 
-## 14: Others
+## 15: Others
 - [PKU Lanco Lab's Introductory Guide](https://github.com/guaiyoui/awesome-graph-analytics/blob/main/files/NLP%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC.pdf)
 - [CS224w Learning Materials](https://yasoz.github.io/cs224w-zh/#/Introduction-and-Graph-Structure)
 
